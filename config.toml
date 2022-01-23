@@ -1,0 +1,37 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "mainroad"
+copyright = 'Everything is mine'
+defaultContentLanguage = 'ar'
+
+[Author] # Used in authorbox
+  name = "John Doe"
+  bio = "John Doe's true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
+  avatar = "img/avatar.png"
+
+[languages]
+  [languages.ar]
+    languagedirection = 'rtl'
+    title = 'مدونتي'
+      [languages.ar.Params.sidebar]
+        home = "left" # Configure layout for home page
+        list = "right"  # Configure layout for list pages
+        single = false # Configure layout for single pages
+        # Enable widgets in given order
+        widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
+        # alternatively "ddg-search" can be used, to search via DuckDuckGo
+        # widgets = ["ddg-search", "recent", "categories", "taglist", "social", "languages"] 
+
+  [languages.en]
+    title = 'My blog'
+    weight = 1
+
+[Params]
+  googleFontsLink = "https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Comic+Neue:wght@300&display=swap" # Load Google Fonts
+
+[Params.style.vars]
+  highlightColor = "#e22d30" # Override highlight color
+  fontFamilyPrimary = "'Baloo Bhaijaan 2', 'Comic Neue'"
+  fontFamilySecondary = "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
+
