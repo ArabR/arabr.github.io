@@ -4,13 +4,14 @@ on:
   push:
     branches:
       - main  # Set a branch to deploy
-  pull_request:
+#  pull_request:
 
 jobs:
   deploy:
     runs-on: ubuntu-20.04
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
+
     steps:
             - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
