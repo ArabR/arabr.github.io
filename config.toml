@@ -1,6 +1,6 @@
 baseURL = "https://arab-r.github.io/ARab_R/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = 'ARab-R'
 theme = "Mainroad"
 copyright = 'Everything is mine'
 defaultContentLanguage = 'ar'
@@ -13,18 +13,19 @@ defaultContentLanguage = 'ar'
 [languages]
   [languages.ar]
     languagedirection = 'rtl'
-    title = 'مدونتي'
-      [languages.ar.Params.sidebar]
-        home = "left" # Configure layout for home page
-        list = "right"  # Configure layout for list pages
-        single = false # Configure layout for single pages
-        # Enable widgets in given order
-        widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
-        # alternatively "ddg-search" can be used, to search via DuckDuckGo
-        # widgets = ["ddg-search", "recent", "categories", "taglist", "social", "languages"] 
+    [languages.ar.Params.sidebar]
+      
+      home = "left" # Configure layout for home page
+      list = "right"  # Configure layout for list pages
+      single = false # Configure layout for single pages
+
+      # Enable widgets in given order
+      widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
+     
+      # alternatively "ddg-search" can be used, to search via DuckDuckGo
+      # widgets = ["ddg-search", "recent", "categories", "taglist", "social", "languages"] 
 
   [languages.en]
-    title = 'My blog'
     weight = 1
 
 [Params]
