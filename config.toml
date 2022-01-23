@@ -1,7 +1,7 @@
-baseURL = "http://example.org/"
+baseURL = "https://arab-r.github.io/ARab_R/"
 languageCode = "en-us"
 title = "My New Hugo Site"
-theme = "mainroad"
+theme = "Mainroad"
 copyright = 'Everything is mine'
 defaultContentLanguage = 'ar'
 
