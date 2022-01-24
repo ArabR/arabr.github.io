@@ -5,10 +5,6 @@ theme = "Mainroad"
 copyright = 'Everything is mine'
 defaultContentLanguage = 'ar'
 
-[Author] # Used in authorbox
-  name = "John Doe"
-  bio = "John Doe's true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
-  avatar = "img/avatar.png"
 
 [languages]
   [languages.ar]
@@ -26,11 +22,44 @@ defaultContentLanguage = 'ar'
       # widgets = ["ddg-search", "recent", "categories", "taglist", "social", "languages"] 
 
   [languages.en]
-    weight = 1
+     [languages.en.Params.sidebar]
+      
+      home = "right" # Configure layout for home page
+      list = "left"  # Configure layout for list pages
+      single = false # Configure layout for single pages
+
+      # Enable widgets in given order
+      widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
+     
+      # alternatively "ddg-search" can be used, to search via DuckDuckGo
+      # widgets = ["ddg-search", "recent", "categories", "taglist", "social", "languages"] 
+
+   weight = 1
+
+[Params.logo]
+  image = "img/placeholder.png" # Logo image. Path relative to "static"
+  title = "ARab-R"  
+  subtitle = "Just another site" # Logo subtitle
+     
+[Params.thumbnail]
+  visibility = ["list", "post"] # Control thumbnail visibility
+
 
 [Params]
   googleFontsLink = "https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Comic+Neue:wght@300&display=swap" # Load Google Fonts
-
+  opengraph = true # Enable OpenGraph if true
+  schema = true # Enable Schema
+  twitter_cards = true # Enable Twitter Cards if true
+  readmore = false # Show "Read more" button in list if true
+  authorbox = true # Show authorbox at bottom of pages if true
+  toc = true # Enable Table of Contents
+  pager = true # Show pager navigation (prev/next links) at the bottom of pages if true
+  post_meta = ["author", "date", "categories", "translations"] # Order of post meta information
+  mainSections = ["posts", "blog", "news"] # Specify section pages to show on home page and the "Recent articles" widget
+  dateformat = "2006-01-02" # Change the format of dates
+  mathjax = true # Enable MathJax
+  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
+  mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
 [Params.style.vars]
   highlightColor = "#e22d30" # Override highlight color
   fontFamilyPrimary = "'Baloo Bhaijaan 2', 'Comic Neue'"
