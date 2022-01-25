@@ -6,7 +6,7 @@ This is the offical website for ARab-R
 ## Contributing :hearts:
 - If you like it, leave your star in this project :star2:
 - If you would like to complain/suggest/contribute to this project, feel free to open a issue :heart_decoration:
-- Please follow our [FIXME - contributing guidelines](https://github.com/Open-Science-Community-Saudi-Arabia/FIXME/blob/main/CONTRIBUTING.md). 
+- Please follow our [Contributing Guidelines](https://github.com/BatoolMM/ARab_R/blob/main/CONTRIBUTING.md). 
 
 ## TODO
 - Add a section for "vision" and "about us"
