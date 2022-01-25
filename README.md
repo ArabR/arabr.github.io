@@ -8,17 +8,28 @@ This is the offical website for ARab-R
 - If you would like to complain/suggest/contribute to this project, feel free to open a issue :heart_decoration:
 - Please follow our [Contributing Guidelines](https://github.com/BatoolMM/ARab_R/blob/main/CONTRIBUTING.md). 
 
-## TODO
-- Add a section for "vision" and "about us"
-- Add the profile of the team
-- Change image in the the landing page
-- Add Code of Conduct
-- Open ana issue for all of these and future improvements.
-- Create a form/mailing list in the 'join us' button. 
+>### How to add a post
+
+>Adding a post can be done as easily as creating a [markdown](https://en.wikipedia.org/wiki/Markdown) file with the naming convention as `file_name.language_code.md`.
+*language_code* is a two character code in compliance with [ISO 639-1](https://en.wikipedia.org/wiki/ISO_639-1). Currently the website supports 20 languages including *Arabic, English, French*. 
+post must have a [YAML](https://en.wikipedia.org/wiki/YAML) front matter. [Parameters are usually theme specific](https://github.com/Vimux/Mainroad#front-matter-example) but the bare minimum can be as shown in the example below. 
+
+#### Most basic example 
+
+```
+#file name : Getting_Started.en.md
+---
+title: "Getting Started"
+date : "2022-01-25"
+draft : false 
+---     
+
+You write your content here in markdown formats
+```
 
 ## License
 
-This work is licensed under MIT and a
+This work is licensed under GPL-2 and a
 [Creative Commons Attribution 4.0 International License][cc-by].
 
 [![CC BY 4.0][cc-by-image]][cc-by]
