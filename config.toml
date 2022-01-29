@@ -46,6 +46,8 @@ defaultContentLanguage = 'ar'
 
 
 [Params]
+  subscribe = true # add subscribe link at the end of each post
+  tinyletter = "https://tinyletter.com/arabr"
   googleFontsLink = "https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Comic+Neue:wght@300&display=swap" # Load Google Fonts
   opengraph = true # Enable OpenGraph if true
   schema = true # Enable Schema
