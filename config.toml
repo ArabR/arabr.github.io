@@ -7,22 +7,41 @@ defaultContentLanguage = 'ar'
 
 
 [languages]
+  
   [languages.ar]
     languagedirection = 'rtl'
+    [languages.ar.menu]
+        [[languages.ar.menu.main]]
+            identifier = 'subscription'
+            name = 'قائمة المراسلات'
+            pre = "<i class='fa fa-heart'></i>"
+            url = 'https://tinyletter.com/arabr'
+            weight = 100 
     [languages.ar.Params.sidebar]
       
-      home = "left" # Configure layout for home page
-      list = "right"  # Configure layout for list pages
-      single = false # Configure layout for single pages
+      home = "left" 
+      list = "right"
+      single = false
 
       # Enable widgets in given order
       widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
      
-      # alternatively "ddg-search" can be used, to search via DuckDuckGo
-      # widgets = ["ddg-search", "recent", "categories", "taglist", "social", "languages"] 
-
   [languages.en]
-     [languages.en.Params.sidebar]
+      [languages.en.menu]
+        [[languages.en.menu.main]]
+            identifier = 'vision_mission'
+            name = 'Vision & Mission'
+            pre = "<i class='fa fa-heart'></i>"
+            url = '/en/landing/'
+            weight = -10
+
+        [[languages.en.menu.main]]
+            identifier = 'subscription'
+            name = 'Newsletter'
+            pre = "<i class='fa fa-heart'></i>"
+            url = 'https://tinyletter.com/arabr'
+            weight = 1
+ [languages.en.Params.sidebar]
       
       home = "right" # Configure layout for home page
       list = "left"  # Configure layout for list pages
