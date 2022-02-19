@@ -56,9 +56,9 @@ defaultContentLanguage = 'ar'
    weight = 1
 
 [Params.logo]
-  image = "img/placeholder.png" # Logo image. Path relative to "static"
+  image = "img/arab-r-logo2.png" # Logo image. Path relative to "static"
   title = "ARab-R"  
-  subtitle = "Just another site" # Logo subtitle
+  subtitle = "Empowering the Arabic R community" # Logo subtitle
      
 [Params.thumbnail]
   visibility = ["list", "post"] # Control thumbnail visibility
