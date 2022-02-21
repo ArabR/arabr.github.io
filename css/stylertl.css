@@ -840,9 +840,9 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 }
 
 .authorbox__avatar {
-	float: left;
+	float: right;
 	padding: 3px;
-	margin: 0 25px 0 0;
+	margin: 0 0 0 25px;
 	border: 1px solid #ebebeb;
 }
 
