@@ -76,7 +76,7 @@ defaultContentLanguage = 'ar'
   toc = true # Enable Table of Contents
   pager = true # Show pager navigation (prev/next links) at the bottom of pages if true
   post_meta = ["author", "date", "categories", "translations"] # Order of post meta information
-  mainSections = ["posts", "blog", "news"] # Specify section pages to show on home page and the "Recent articles" widget
+ # Specify section pages to show on home page and the "Recent articles" widget
   dateformat = "2006-01-02" # Change the format of dates
   mathjax = true # Enable MathJax
   mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
