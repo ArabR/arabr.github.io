@@ -2,3 +2,4 @@
 .Rproj.user
 .Rhistory
 *.Rproj
+.hugo_build.lock
