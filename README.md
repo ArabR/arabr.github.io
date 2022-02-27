@@ -1,5 +1,6 @@
 [![CC BY 4.0][cc-by-shield]][cc-by]
 [![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
+[![GitHub Pages](https://github.com/ARab-R/ArabR-Website/actions/workflows/gh-pages.yaml/badge.svg)](https://github.com/ARab-R/ArabR-Website/actions/workflows/gh-pages.yaml)
 
 This is the offical website for ARab-R
 
