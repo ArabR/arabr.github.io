@@ -1,11 +1,8 @@
 ---
-title: "مرحبا بكم في عرب  R"
+title: "Welcome to ArabR"
 date: 2022-01-23T18:01:49+03:00
 draft: false
-author: hussain.ar
-catagories:
-    - 'دروس'
-    - 'عام'
+author: hussain.en
 tags:
 menu: main # Optional, add page to a menu. Options: main, side, footer
 
@@ -21,5 +18,4 @@ widgets: # Enable sidebar widgets in given order per page
 
 ---
 
-السلام عليكم ورحمة الله وبركاته, 
-
+Welcomd to my live demo. let's hope this works 
