@@ -89,7 +89,7 @@ body {
 	-webkit-order: 2;
 	order: 1;
 	min-width: 0;
-	margin: 0 2.5% 0 0;
+	margin: 0 0 0 2.5%;
 }
 
 .sidebar--left {
