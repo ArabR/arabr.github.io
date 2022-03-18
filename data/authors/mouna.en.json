@@ -1,0 +1,10 @@
+{
+    "name": "Mouna Belaid",
+    "bio": "[Mouna Belaid](https://mounabelaid.netlify.app/) is an engineer in Statistics and Data Analysis, graduated from the Higher School of Statistics and Data Analysis - [ESSAI](http://www.essai.rnu.tn/en/), Tunis and holds a research master’s degree in Data Processing and Complexity of Living Systems from National School of Engineers of Tunis - ENIT and Paris Descartes University. She is currently a Business Intelligence Consultant at Prime Analytics in service for BNP Paribas Securities Services based in Paris, France. She co-founders two communities: [Tunis R User Group](https://www.meetup.com/tunis-r-user-group) and [PyLadies Tunis](https://www.meetup.com/pyladies-tunis/). She is also a member of [R-Ladies Global](https://rladies.org/) committee, a worldwide organization to promote gender diversity in the R community.",
+    "avatar": "img/avatar/mouna.png",
+    "social": {
+        "linkedin": "https://www.linkedin.com/in/mouna-belaid-b10300112/" ,
+        "twitter" : "https://twitter.com/mounaa_belaid",
+        "website" : "https://mounabelaid.netlify.app/"
+    }
+}
