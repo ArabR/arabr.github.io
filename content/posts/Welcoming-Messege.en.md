@@ -3,7 +3,7 @@ title: "Welcome to ArabR"
 date: 2022-01-23T18:01:49+03:00
 draft: false
 author: hussain.en
-tags: vision
+tags: "vision"
 menu: main # Optional, add page to a menu. Options: main, side, footer
 
 # Theme-Defined params
