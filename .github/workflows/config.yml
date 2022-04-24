@@ -1,0 +1,32 @@
+# Configuration for welcome - https://github.com/behaviorbot/welcome
+
+# Configuration for new-issue-welcome - https://github.com/behaviorbot/new-issue-welcome
+
+# Comment to be posted to on first time issues
+newIssueWelcomeComment: >
+<a href="https://www.freeiconspng.com/img/33285">welcome png images</a>
+:tada: Welcome to ArabR :tada:
+أهلا بك في عرب آر 
+We're really excited to have your input into the project! :sparkling_heart:
+<br>If you haven't done so already, please make sure you check out our [Contributing Guidelines](https://github.com/ArabR/ArabR-Website/blob/main/CONTRIBUTING.md).</br>
+
+
+# Configuration for new-pr-welcome - https://github.com/behaviorbot/new-pr-welcome
+
+# Comment to be posted to on PRs from first time contributors in your repository
+newPRWelcomeComment: >
+<a href="https://www.freeiconspng.com/img/17625">Thank You</a>
+:sparkling_heart: Thanks for opening this pull request! :sparkling_heart:
+
+The ArabR community  really appreciates your time and effort to contribute to the project.
+  
+<br>If you haven't done so already, please make sure you check out our [Contributing Guidelines](https://github.com/ArabR/ArabR-Website/blob/main/CONTRIBUTING.md).
+
+# Configuration for first-pr-merge - https://github.com/behaviorbot/first-pr-merge
+
+# Comment to be posted to on pull requests merged by a first time user
+firstPRMergeComment: >
+<a href="https://www.freeiconspng.com/img/31116"></a>  
+<br>  Congrats on merging your first pull request! :tada:</br>
+<br>  We here at ArabR are proud of you! :sparkling_heart:</br>
+<br>  Thank you so much for your contribution :gift:</br>
