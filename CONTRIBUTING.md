@@ -4,6 +4,15 @@
 
 This guide is designed to assist content contributors to start creating content with minimum technical burden. 
 
+
+### Cloning the repository
+
+When cloning the repository, clone it with the themes submodules:
+
+```
+clone --recurse-submodules git@github.com:ArabR/ArabR-Website.git
+```
+
 ### How to add a post
 
 Adding a post can be done as easily as creating a [markdown](https://en.wikipedia.org/wiki/Markdown) file with the naming convention as `file_name.language_code.md`.
@@ -68,5 +77,16 @@ author : hussain.en
 ---     
 ```
 **Note**: please make sure that your name matches the file in `data/authors` directory **without** any qoutations.
+
+### Deploy locally
+
+Start the Hugo server with the following command:
+
+```
+make server
+```
+
+This will likely run a web Server at http://localhost:1313/
+
 
 
