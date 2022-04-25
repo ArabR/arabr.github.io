@@ -13,16 +13,15 @@ jobs:
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         issue-message: |
-                        'Hello @${{ github.actor }} , thank you for submitting an issue to ArabR'
-                         <img src="https://www.freeiconspng.com/img/33285" width="500">
-                        :tada: Welcome to ArabR :tada:
-                        "أهلا بكم في عرب آر"
-                        "We're really excited to have your input into the project! :sparkling_heart:"
-                         If you haven't done so already, please make sure you check out our [Contributing Guidelines](https://github.com/ArabR/ArabR-Website/blob/main/CONTRIBUTING.md).
+                         Hello @${{ github.actor }} , thank you for submitting an issue to ArabR!
+                          You are awesome! 🤗
+                          "أهلا بكم في عرب آر"
+                         We're really excited to have your input into the project!
+                         If you haven't done so already, please make sure you check out our Contributing Guidelines.
         
         pr-message: |
-                          <img src="https://www.freeiconspng.com/img/17625" width="500">
-                           "Thanks for opening this pull request!"
-                            "The ArabR community  really appreciates your time and effort to contribute to the project."
-                              If you haven't done so already, please make sure you check out our [Contributing Guidelines](https://github.com/ArabR/ArabR-Website/blob/main/CONTRIBUTING.md).
+                          Thanks for opening this pull request!
+                           You are awesome! 🤗
+                            The ArabR community  really appreciates your time and effort to contribute to the project.
+                              If you haven't done so already, please make sure you check out our Contributing Guidelines.
 
