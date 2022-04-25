@@ -35,6 +35,13 @@ This work is licensed under GPL-2 and a
 
 [![CC BY 4.0][cc-by-image]][cc-by]
 
+
+## Citation
+
+> Batool Almarzouq, Hussain Alsalman, Iman Al Hasani, Mohd Ali Al Abri, Mouna Belaid, NasrOman, NouraSM, & ahmedgithub2022. (2022). ArabR/ArabR-Website: V1.1 (v1.11). Zenodo. https://doi.org/10.5281/zenodo.6484507
+
+
+
 [cc-by]: http://creativecommons.org/licenses/by/4.0/
 [cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
 [cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
