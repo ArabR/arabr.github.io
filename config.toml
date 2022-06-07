@@ -1,4 +1,4 @@
-baseURL = "https://arab-r.github.io/ArabR-Website/"
+baseURL = "https://arabr.github.io/"
 languageCode = "en-us"
 title = 'ARab-R'
 theme = "Mainroad"
